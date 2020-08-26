@@ -1,0 +1,24 @@
+/* Page consist variable, mixins and keyframes */
+
+/* Variable */
+$bgColor : #c3cfe2;
+$bgTxtColor : #fff;
+$ftrColor : #686de0;
+
+
+
+/* Keyframe */
+
+@keyframes changeColor {
+    0% {background-color: $bgTxtColor; color:$ftrColor;}
+    50% {background-color: $bgColor; color:$bgColor;}
+    100% {background-color: $ftrColor; color:$bgTxtColor;}
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    25% {opacity: 0.75;}
+    50% {opacity: 0.50;}
+    75% {opacity: 0.25;}
+    100% {opacity: 0;}
+}
